@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Papan Tulis - Produk</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #000;
+      color: #fff;
+    }
+    header {
+      background: #111;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+    .hero {
+      background: #000;
+      padding: 40px;
+      text-align: center;
+      border-bottom: 1px solid #444;
+    }
+    .hero img {
+      width: 300px;
+      height: auto;
+      margin-bottom: 20px;
+      border: 3px solid white;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #111;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(255,255,255,0.1);
+      text-align: center;
+      border: 1px solid #444;
+    }
+    .card img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      border: 2px solid white;
+    }
+    footer {
+      background: #111;
+      padding: 20px;
+      color: white;
+      text-align: center;
+      margin-top: 40px;
+      border-top: 1px solid #444;
+    }
+    .button {
+      background: #fff;
+      padding: 10px 15px;
+      color: #000;
+      text-decoration: none;
+      border-radius: 6px;
+      display: inline-block;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="img/photo_2025-10-03_08-32-34.jpg" alt="Logo Hamzah Board" style="width:150px; margin-bottom:10px;">
+    <h1>Hamzah Board</h1>
+    <p>Produsen Papan Tulis Sejak 1990</p>
+  </header>
+
+  <section class="hero">
+    <img src="https://via.placeholder.com/300x200/ffffff/000000" alt="Papan Tulis" />
+    <h2>Papan Tulis Terbaik untuk Kebutuhan Anda</h2>
+    <p>Kuat, tahan lama, dan mudah dibersihkan. Cocok untuk ruang kelas, perkantoran, dan ruang meeting.</p>
+    <a href="#produk" class="button">Lihat Produk</a>
+  </section>
+
+  <div class="container" id="produk">
+    <h2 style="text-align:center; margin-bottom: 20px;">Produk Kami</h2>
+
+    <div class="product-grid">
+      <div class="card">
+        <img src="img/photo_2025-10-03_08-50-42.jpg" alt="Papan Tulis 120x240" />
+        <h3>Papan Tulis 120 x 240</h3>
+        <p>Papan tulis ukuran besar cocok untuk ruang kelas dan meeting.</p>
+        <strong>Rp 750.000</strong><br>
+        <a href="#" class="button">Beli Sekarang</a>
+      </div>
+
+      <div class="card">
+        <img src="img/photo_2025-10-03_09-25-18.jpg" alt="Papan Tulis 100x150" />
+        <h3>Papan Tulis 100 x 150</h3>
+        <p>Pilihan ideal untuk kantor atau homeschooling.</p>
+        <strong>Rp 650.000</strong><br>
+        <a href="#" class="button">Beli Sekarang</a>
+      </div>
+
+      <div class="card">
+        <img src="https://via.placeholder.com/250x180/ffffff/000000" alt="Mini Board" />
+        <h3>Papan Tulis 80 x 120</h3>
+        <p>cocok untuk presentasi  dan belajar .</p>
+        <strong>Rp 300.000</strong><br>
+        <a href="#" class="button">Beli Sekarang</a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>Alamat Toko: Jl. Padurenan 3 Gg. Mushola Nurul Iman Rt 002/001,Padurenan-Gunung Sindur</p>
+    <p>Telepon: 08972-603-703</p>
+    <p>&copy; 2025 Papan Tulis Premium. All Rights Reserved.</p>
+  </footer>
+  <a href="https://wa.me/628972603703" target="_blank" style="position: fixed; bottom: 20px; right: 20px; background: #25d366; color: #000; padding: 12px 18px; border-radius: 50px; font-weight: bold; text-decoration: none; box-shadow: 0 0 10px rgba(0,0,0,0.5);">Chat WhatsApp</a>
+</body>
+</html>
